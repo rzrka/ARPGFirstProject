@@ -1,0 +1,82 @@
+# Ignore binary files
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Object files
+*.o
+*.obj
+
+# C++ Debugger files
+*.gch
+*.pch
+
+# Ignore build directories
+/build/
+/bin/
+/lib/
+
+# Ignore dependency directories
+/deps/
+/vendor/
+
+# CMake specific
+CMakeCache.txt
+CMakeFiles/
+/cmake_install.cmake
+Makefile
+
+# Ignore IDE specific files (for popular IDEs)
+# CLion
+.idea/
+*.iml
+
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.opensdf
+*.sdf
+*.ipch
+*.tlog
+*.lastbuildstate
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdatad/
+*.xcuserdata/
+
+# Ignore OS-generated files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Ignore IDE specific files (for popular IDEs)
+# CLion
+.idea/
+*.iml
+
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.opensdf
+*.sdf
+*.ipch
+*.tlog
+*.lastbuildstate
+.vs/
+.vscode/
